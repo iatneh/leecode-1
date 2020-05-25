@@ -1,5 +1,6 @@
 /**
  * Answer For https://leetcode-cn.com/explore/interview/card/top-interview-questions-easy/1/array/21/
+ *
  * @author xiayang1900@gmail.com
  * @title: package-info
  * @copyright: Copyright (c) 2018
