@@ -36,8 +36,9 @@ public class RemoveDuplicates {
         if (nums.length == 0) {
             return 0;
         }
-        int len = 0;
+        int len = 0;//当前去重过的下标
         for (int i = 1; i < nums.length; i++) {
+            System.out.println(len + "-" + Arrays.toString(nums));
             if (nums[i] != nums[len]) {
                 len++;
                 nums[len] = nums[i];

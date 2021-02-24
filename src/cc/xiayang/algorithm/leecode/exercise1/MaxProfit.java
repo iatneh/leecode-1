@@ -42,7 +42,9 @@ public class MaxProfit {
         int income = 0;
         for (int i = 0; i < prices.length - 1; i++) {
             if (prices[i] < prices[i + 1]) {
+                System.out.println("买入天数:" + i);
                 income = income + prices[i + 1] - prices[i];
+                System.out.println("第" + i + "天,获利:" + (prices[i + 1] - prices[i]));
             }
         }
         return income;
